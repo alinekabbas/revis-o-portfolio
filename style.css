@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+
+}
+.page-wrapper {
+    width: 1200px;
+    margin: 0 auto;
+       
+}
+
+.header{
+    height: 55px;
+    display: flex;
+    justify-content: flex-end;
+    color: #666666;
+}
+
+.nav-group-logo{
+    color: #cd23b3;
+    font-style: italic;
+    font-weight: bolder;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 40px;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+}
+
+.nav-group-page-itens{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    width: 610px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-group-social-icons{
+    width: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-group-page-itens a{
+    padding: 4px 8px; 
+}
+
+.nav-group-page-itens a:hover{
+    background-color: lightgray;  
+}
+
+.section-home{
+    min-height: calc(100vh - 55px);
+    display: flex;
+    align-items: center;
+}
+
+.section-home-item{
+    color: #42446E;
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.my-name{
+    color: lightskyblue ;
+}
+
+.profile-img{
+    border-radius: 50%;
+}

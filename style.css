@@ -81,3 +81,56 @@ a{
 .profile-img{
     border-radius: 50%;
 }
+
+.main-about{
+    display: flex;
+    flex-direction: column;
+    width: 710px;
+    padding-top: 40px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.section-about-me{
+    font-family: 'Poppins', sans-serif;
+}
+
+.title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: #42446E;
+}
+
+.section-experience, .section-education{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.experience, .education{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contents{
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    color: #666666;
+}
+
+.other-items{
+    font-size: 12px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: space-between;
+    color: #A7A7A7;
+}
+
+
+
+
+
